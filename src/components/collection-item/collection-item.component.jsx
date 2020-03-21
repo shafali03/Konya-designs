@@ -7,7 +7,7 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
   <div className='collection-item'>
     <div
       className='image'
-      styles={{
+      style={{
         backgroundImage: `url(${imageUrl})`
       }}
       />
