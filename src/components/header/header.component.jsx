@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 import './header.styles.scss';
-import CollectionItem from '../collection-item/collection-item.component';
+// import CollectionItem from '../collection-item/collection-item.component';
 
 
 const Header = () => (
