@@ -1,32 +1,33 @@
-.checkout-page {
-  width: 55%;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px auto 0;
-
-
-.checkout-header {
+.checkout-item {
   width: 100%;
-  padding: 10px 0;
   display: flex;
-  justify-content: space-between;
+  min-height: 100px;
   border-bottom: 1px solid darkgrey;
+  padding: 15px 0;
+  font-size: 20px;
+  align-items: center;
 
-  .header-block {
-    text-transform: capitalize;
+  .image-container {
     width: 23%;
+    padding-right: 15px;
 
-    &:last-child {
-      width: 8%;
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
-}
+  .name,
+  .quantity,
+  .price {
+    width: 23%;
+  }
 
-  .total {
-    margin-top: 30px;
-    margin-left: auto;
-    font-size: 36px;
+  .quantity {
+    padding-left: 20px;
+  }
+
+  .remove-button {
+    padding-left: 12px;
+    cursor: pointer;
   }
 }
