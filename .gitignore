@@ -6,7 +6,6 @@
 .pnp.js
 
 # Stripe api key
-src/components/stripe-button/stripe.button.component.jsx
 
 # testing
 /coverage
