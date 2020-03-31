@@ -11,7 +11,7 @@ src/components/stripe-button/stripe.button.component.jsx
 /coverage
 
 # firebase
-src/firebase/firebase.utils.js
+#src/firebase/firebase.utils.js
 
 # production
 /build
